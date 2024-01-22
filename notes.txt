@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15pt;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    box-shadow: 0 0 10px 0.9px grey;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+nav .logo{
+    border-bottom: 4px solid black;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 0 10px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+.mainText {
+    text-align: center;
+
+}
+
+.mainText h1,
+h2 {
+    text-decoration: underline;
+    line-height: 4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.mainText button {
+    padding: 8px 12px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #A0A3C7;
+    font-weight: bolder;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.head_text {
+    text-align: center;
+}
+
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 0.9fr));
+    gap: 20px;
+    margin: 10px 20px;
+
+
+}
+
+.card {
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+  
+    border: 2px solid black;
+}
+.
+.card img {
+    width: 100%;
+        border-radius: 10px;
+
+}
+
+.card button {
+    padding: 10px 12px;
+    border-radius: 15px;
+    font-size: 15px;
+    text-decoration: underline;
+
+}
